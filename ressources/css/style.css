@@ -1,0 +1,122 @@
+    /*DOCUMENT INFORMATION
+    - Document: LIVRE thème
+    - version: 1.0.0
+    - Author: QL
+
+*/
+
+    /*COLORS
+    -defaut body text
+    -h1
+    -h2
+    -h3
+
+    - button
+    - button: hover
+
+*/
+
+    /*FONTS
+    -default Lobster
+    -subtitle
+*/
+
+    /* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+*/
+
+/*GLOBAL
+=========================*/
+
+html{
+    background-color: white;
+}
+
+h1, h2, h3{
+    font-family: 'Lobster', 'Arial', 'sans-serif' ;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+
+}
+
+h2{
+    color:black;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+b{
+color:rgb(255, 60, 60);
+}
+
+
+
+
+
+
+/*HEADER
+====================*/
+
+header{
+    background-image: url(../gallery/Books.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-title{
+    position: absolute;
+    top: 30%;
+}
+.home-title h1{
+    font-size: 300%;
+    color:rgb(255, 60, 60);
+}
+
+.home-title h1 span{
+    font-weight: 600;
+}
+
+.home-title p{
+    color: rgb(255, 255, 255);
+}
+
+/*Button*/
+
+.btn{
+
+}
+
+/*CHOIX
+================================*/
+
+
+.trust{
+    background-color: rgb(155, 140, 140);
+}
+
+
+
+
+/*NOUVEAUTE
+======================================*/
+.new-book{
+    background-color: rgb(255, 60, 60);
+}
+
+.class2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
